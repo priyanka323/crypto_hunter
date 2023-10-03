@@ -1,5 +1,6 @@
 import React from 'react';
 import TeamMember from './team';
+import image1 from './profile.jpg'
 
 const TeamPage = () => {
   const teamMembers = [
@@ -7,31 +8,31 @@ const TeamPage = () => {
       name: 'John Doe',
       position: 'Developer',
       linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
-      imageSrc: 'https://th.bing.com/th/id/OIP.audMX4ZGbvT2_GJTx2c4GgHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+      imageSrc: image1
     },
     {
         name: 'John Doe',
         position: 'Developer',
         linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
-        imageSrc: 'https://th.bing.com/th/id/OIP.audMX4ZGbvT2_GJTx2c4GgHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+        imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
         linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
-        imageSrc: 'https://th.bing.com/th/id/OIP.audMX4ZGbvT2_GJTx2c4GgHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+        imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
         linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
-        imageSrc: 'https://th.bing.com/th/id/OIP.audMX4ZGbvT2_GJTx2c4GgHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+        imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
         linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
-        imageSrc: 'https://th.bing.com/th/id/OIP.audMX4ZGbvT2_GJTx2c4GgHaHw?w=181&h=189&c=7&r=0&o=5&dpr=1.5&pid=1.7'
+        imageSrc: image1
       },
     // Add more team members as needed
   ];
@@ -40,7 +41,7 @@ const TeamPage = () => {
     
     <>
         <div style={{background: 'linear-gradient(to bottom right, #31065f 40%, #b327de 100%, #31065f 70%)' }}>
-        <div style={{fontSize: "1rem"}}>TEAM</div>
+        <div style={{fontSize: "3rem", margin:"1rem",color:"azure", fontFamily:"initial"}}>TEAM</div>
         <div className="team-page">
       {teamMembers.map((member, index) => (
         <TeamMember

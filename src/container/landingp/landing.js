@@ -1,6 +1,6 @@
 import React from 'react';
 import './landing.css';
-import './img1.png'
+import image from './img1.png'
 import {BiLogoTelegram} from 'react-icons/bi'
 
 const Home = () => {
@@ -36,7 +36,7 @@ const Home = () => {
       </div>
       <div className="right-section">
         {/* <img src="https://o.remove.bg/downloads/c883d2e4-4246-454f-ab0e-94cf63ad4b4a/dbt1auf-bded01c3-5d5f-46d3-aa59-7a8918057a02-removebg-preview.png" alt="Image 1" /> */}
-        <img src="https://o.remove.bg/downloads/fd0d0f4d-96c1-4df2-bf72-42521857e1b9/dbt1auf-bded01c3-5d5f-46d3-aa59-7a8918057a02-removebg-preview.png" alt="Image 2" />
+        <img src={image} alt="Image 2" />
       </div>
     </div>
   );
