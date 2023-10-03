@@ -1,0 +1,19 @@
+.page {
+    display: flex;
+  }
+  
+  .left-section {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .right-section {
+    flex: 1;
+  }
+  
+  .right-section img {
+    width: 100%;
+    height: auto;
+    justify-content: center;
+  }
+  

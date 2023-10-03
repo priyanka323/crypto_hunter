@@ -1,0 +1,66 @@
+/* Common styles */
+/* Add this style to your CSS */
+body {
+    overflow-x: hidden; /* This will hide horizontal overflow */
+  }
+  
+.team-page {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .profile-picture img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #333; /* Circle boundary */
+  }
+  
+  .details {
+    margin-top: 10px;
+  }
+  
+  .details h3 {
+    margin: 0;
+  }
+  
+  .details p {
+    margin: 0;
+  }
+  
+  a {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  a img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .profile-picture img {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .team-member {
+      margin: 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .profile-picture img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+  

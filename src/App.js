@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Header from './container/header/header';
+import Footer from './container/footer/footer';
+
+
+import PieChart from './container/chart/chart';
+import TeamPage from './container/team/teampro';
+import TeamMember from './container/team/team';
+import AboutPage from './container/about/about';
+import Home from './container/landingp/landing';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header/>
+      
+      <Home/>
+      <AboutPage/>
+      <TeamPage/>
+      <PieChart/>
+      <Footer/>
     </div>
   );
 }
