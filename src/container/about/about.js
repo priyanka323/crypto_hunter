@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css'; // Import CSS for styling
+import image4 from './phone.jpeg'
 
 const AboutPage = () => {
   return (
@@ -9,7 +10,7 @@ const AboutPage = () => {
         <h2>Subheading</h2>
       </div>
       <div className="right-section">
-        <img src="https://thumbs.dreamstime.com/z/iphone-glowing-screen-sitting-top-table-generative-ai-iphone-glowing-screen-sitting-top-table-272532498.jpg" alt="Image" />
+        <img style={{ }} src={image4} alt="Image" />
       </div>
     </div>
   );
