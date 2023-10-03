@@ -35,7 +35,7 @@ const Home = () => {
         
       </div>
       <div className="right-section">
-        {/* <img src="https://o.remove.bg/downloads/c883d2e4-4246-454f-ab0e-94cf63ad4b4a/dbt1auf-bded01c3-5d5f-46d3-aa59-7a8918057a02-removebg-preview.png" alt="Image 1" /> */}
+        
         <img src={image} alt="Image 2" />
       </div>
     </div>
