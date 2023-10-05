@@ -10,6 +10,7 @@ import TeamMember from './container/team/team';
 import AboutPage from './container/about/about';
 import Home from './container/landingp/landing';
 import FeatureCard from './container/features/feature';
+import Leaderboard from './container/leaderboard/leaderboard';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Home/>
       <AboutPage/>
       <FeatureCard/>
+      <Leaderboard/>
       <TeamPage/>
       <PieChart/>
       <Footer/>

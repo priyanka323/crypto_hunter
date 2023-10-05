@@ -47,11 +47,17 @@ const PieChart = () => {
   return (
     <>
       <div style={{ background: 'linear-gradient(to bottom right, #31065f 40%, #b327de 100%, #31065f 70%)' }}>
-        <div style={{ textAlign: 'center', padding: '10px', color: 'white', fontSize: '1.5em' }}>TOKENOMICS</div>
+        <div style={{ textAlign: 'center', padding: '10px', color: 'white', fontSize: '3rem' }}>TOKENOMICS</div>
         <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center' }}>
-          <div style={{ width: '100%', maxWidth: '300px', padding: '10px' }}>
-            <div style={{ color: 'white' }}>TOKEN</div>
-            <div></div>
+          <div style={{ width: '100%', maxWidth: '600px', padding: '10px' }}>
+            <div style={{ color: 'white', fontSize:"2rem", textAlign:"left"}}> $ TOKEN</div>
+            <div style={{ color: 'white',fontSize:"1.5rem", textAlign:"left"}}>Total Token Supply - 1,000,000,000</div>
+            
+            <div style={{ color: 'white',fontSize:"1.5rem", textAlign:"left" }}>Token Contract - 3b3i8ddbfh84id83rdh38</div>
+            <div className="buttons" style={{margin:"1rem"}}>
+        <button className="button" style={{background:"blue", color:"azure"}}>BUY TOKEN</button>
+        <button className="button" style={{color:"azure", background:"#31065f"}}>WHITEPAPER</button>
+      </div>
           </div>
           <div style={{ flex: 1, maxWidth: '500px' }}>
             <canvas ref={canvasRef} />
