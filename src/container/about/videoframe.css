@@ -1,0 +1,21 @@
+.video-frame {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    
+   
+    margin-bottom: 20px; /* Adjust spacing as needed */
+    background-color: linear-gradient(to bottom right, #31065f 40%, #b327de 100%, #31065f 70%);
+  }
+  
+  .video-frame iframe {
+
+    
+    width: 50%;
+    height: 100%;
+    
+  }
+  
