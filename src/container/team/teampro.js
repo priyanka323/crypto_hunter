@@ -7,31 +7,31 @@ const TeamPage = () => {
     {
       name: 'John Doe',
       position: 'Developer',
-      linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
+      linkedin: '',
       imageSrc: image1
     },
     {
         name: 'John Doe',
         position: 'Developer',
-        linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
+        linkedin: '',
         imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
-        linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
+        linkedin: '',
         imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
-        linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
+        linkedin: '',
         imageSrc: image1
       },
       {
         name: 'John Doe',
         position: 'Developer',
-        linkedin: 'https://www.linkedin.com/in/priyanka-swami-08a52a211/',
+        linkedin: '',
         imageSrc: image1
       },
     // Add more team members as needed
